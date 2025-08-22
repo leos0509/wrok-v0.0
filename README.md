@@ -1,6 +1,6 @@
 # ✅ WROKS — Open Source To-Do App
 
-An open-source **task & project management app** built with modern web technologies.  
+An open-source **task management app** built with modern web technologies.  
 Manage tasks with drag-and-drop, organize your work visually, and collaborate with authentication support.
 
 ---
@@ -65,10 +65,15 @@ bun install
 Create a `.env` file in the root:
 
 ```env
+NEXTAUTH_SECRET="changeme"
+NEXTAUTH_URL="http://localhost:3000"
+
+GITHUB_CLIENT_ID="your-github-client-id"
+GITHUB_CLIENT_SECRET="your-github-client-secret"
+GOOGLE_CLIENT_ID="your-google-client-id"
+GOOGLE_CLIENT_SECRET="your-google-client-secret"
+
 DATABASE_URL="postgresql://user:password@localhost:5432/wroksdb"
-NEXTAUTH_SECRET="your-secret"
-GITHUB_ID="your-github-client-id"
-GITHUB_SECRET="your-github-client-secret"
 ```
 
 ### 4. Run Prisma migrations
