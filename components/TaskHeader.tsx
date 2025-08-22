@@ -16,7 +16,7 @@ const TaskHeader = () => {
   const handleCreateTask = () => {
     if (taskTitle.trim() === "") return;
     createTask(
-      { title: taskTitle, status },
+      { title: taskTitle, status,  },
       {
         onSuccess: () => {
           setTaskTitle("");

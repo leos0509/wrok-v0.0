@@ -53,7 +53,7 @@ const CardDisplay = ({ task, isDragging }: CardDisplayProps) => {
 
   return (
     <div className="flex items-center gap-3 justify-center w-full mt-2">
-      <div className="flex flex-col items-start justify-start p-4 bg-card text-card-foreground hover:bg-secondary/60 hover:text-secondary-foreground w-full border rounded-xs relative shadow-xs">
+      <div className="flex flex-col items-start justify-start p-4 bg-card text-card-foreground hover:bg-secondary hover:text-secondary-foreground w-full border rounded-xs relative shadow-xs">
         {isDragging && (
           <div className="absolute z-20 top-0 inset-0 bg-secondary rounded-xs" />
         )}
