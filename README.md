@@ -76,9 +76,10 @@ GOOGLE_CLIENT_SECRET="your-google-client-secret"
 DATABASE_URL="postgresql://user:password@localhost:5432/wroksdb"
 ```
 
-### 4. Run Prisma migrations
+### 4. Run Prisma setup
 ```bash
 npx prisma migrate dev
+npx prisma generate
 ```
 
 ### 5. Start the dev server
