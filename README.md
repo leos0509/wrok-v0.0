@@ -34,9 +34,6 @@ Manage tasks with drag-and-drop, organize your work visually, and collaborate wi
 ### Dashboard View
 ![Dashboard Screenshot](./screenshots/dashboard.png)
 
-### Task Management
-![Task Management Screenshot](./screenshots/tasks.png)
-
 ### Authentication Flow
 ![Login Screenshot](./screenshots/login.png)
 
